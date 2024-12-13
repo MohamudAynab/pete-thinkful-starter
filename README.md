@@ -16,6 +16,7 @@ This portfolio website template serves as a foundation to showcase your projects
 ## Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/Thinkful-Ed/starter-pete-thinkful-portfolio.git
    cd starter-pete-thinkful-portfolio
@@ -27,6 +28,7 @@ This portfolio website template serves as a foundation to showcase your projects
 ## Getting Started
 
 Once you have the repository cloned, feel free to modify the HTML and CSS to add your personal details:
+
 - Update the **profile picture** and **about section** in `index.html`.
 - Add your own **project details** in the gallery section.
 - Customize colors and fonts in the `style.css` file to match your preferences.
@@ -34,6 +36,7 @@ Once you have the repository cloned, feel free to modify the HTML and CSS to add
 ## Customization
 
 This template is meant to be a starting point. Here are some suggestions for customization:
+
 - Replace the placeholder images in the `images/` folder with your own.
 - Modify the layout, fonts, and colors in `style.css` to make it unique.
 - Add additional sections for skills, experience, or testimonials as needed.
