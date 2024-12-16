@@ -1,4 +1,4 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap');
 
 * {
@@ -9,8 +9,8 @@ body {
 	background-color: #eae2b7;
 	color: #003049;
 	font-family: 'Source Sans Pro', Tahoma, Geneva, Verdana, sans-serif;
-	padding: 0;
 	margin: 0;
+	padding: 0;
 }
 
 /* Headings */
@@ -33,9 +33,9 @@ h3 {
 
 nav a {
 	margin-right: 35px;
-
 }
 
+/* About Section */
 .about-container {
 	display: flex;
 	flex-direction: column;
@@ -52,17 +52,17 @@ nav a {
 .about-container .about-content {
 	text-align: left;
 }
-
 .about-background {
 	margin-top: 2rem;
 	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 @media (min-width: 768px) {
 	.about-container {
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
 		gap: 2rem;
 	}
 
@@ -70,45 +70,33 @@ nav a {
 		flex: 0 0 150px;
 	}
 
-	.about-container .about-content {
-		flex: 1;
-		/* Content takes remaining space */
-		text-align: left;
-	}
-
 	.about-background {
 		text-align: left;
-		margin-top: 2rem;
 	}
-
 }
 
-
+/* Portfolio Section */
 #portfolio {
 	text-align: center;
 	margin: 2rem auto;
 	max-width: 1000px;
+	/* Consistent max width */
 }
-
-#portfolio > section {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	margin: 0 10px;
-}
-
-#portfolio h3 {
-	margin-bottom: 0.5rem;
-	font-size: 1.2rem;
-}
-
 
 .portfolio-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	/* Ensures even spacing */
 	flex-wrap: wrap;
-	gap: 1.5rem;
+	gap: 2rem;
+	/* Balanced spacing between items */
+	margin: 0 auto;
+}
+
+.portfolio-container section {
+	flex: 1 1 300px;
+	/* Ensures consistent minimum size */
+	text-align: center;
 }
 
 .portfolio-container img {
@@ -123,25 +111,15 @@ nav a {
 	line-height: 1.4;
 	margin-top: 0.5rem;
 }
-/* Containers */
-div {
-	background-color: #eae2b7;
-	margin: auto;
-	width: 600px;
-}
 
-article {
-	padding: 50px 0;
-}
-
-article div {
+/* Footer */
+footer {
 	text-align: center;
-	width: 100%;
-}
-
-/* Paragraphs */
-p {
-	line-height: 1.5;
+	margin: 2rem auto;
+	max-width: 800px;
+	/* Consistent width with About section */
+	padding: 1rem 0;
+	font-size: 0.9rem;
 }
 
 /* Links */
@@ -154,11 +132,8 @@ a:hover {
 }
 
 
-
 /* Images */
 img {
-	width: 100%;
-	max-width: 200px;
 	height: auto;
 }
 
@@ -167,12 +142,7 @@ img {
 	border-radius: 50%;
 }
 
-/* Footer */
-footer {
-	text-align: center;
-}
-
-/* Other page elements */
+/* Horizontal Rule */
 hr {
 	border: 1px solid black;
 }

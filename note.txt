@@ -1,0 +1,29 @@
+.portfolio-container {
+	display: flex;
+	justify-content: space-between;
+	/* Equal spacing */
+	gap: 1.5rem;
+	/* Space between projects */
+	flex-wrap: wrap;
+	/* Wrap if not enough space */
+}
+
+.portfolio-container section {
+	flex: 1 1 300px;
+	/* Ensure sections take a minimum width */
+	text-align: center;
+}
+
+.portfolio-container img {
+	width: 100%;
+	max-width: 250px;
+	/* Correct image width */
+	height: auto;
+	border-radius: 8px;
+}
+
+.portfolio-container p {
+	font-size: 14px;
+	line-height: 1.4;
+	margin-top: 0.5rem;
+}
