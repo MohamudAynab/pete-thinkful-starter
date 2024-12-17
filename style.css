@@ -91,7 +91,7 @@ nav a {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	gap: 2rem;
+	gap: 0.5rem;
 	margin: 2rem auto;
 }
 
@@ -107,23 +107,25 @@ nav a {
 .portfolio-container img {
 	width: 100%;
 	/* Ensure the image fits the container */
-	max-width: 150px;
-	/* Control the image size */
-	height: auto;
+	max-width: 500px;
 	/* Maintain aspect ratio */
 	margin-bottom: 1rem;
 	/* Spacing below the image */
-	border-radius: 8px;
-	/* Optional rounded corners */
 }
 
 .portfolio-container p {
 	font-size: 14px;
-	/* Set font size for descriptions */
+	/* Keep font size consistent */
+	margin-top: auto;
+		/* Push the paragraph to align vertically */
 	line-height: 1.5;
 	/* Improve readability */
 	margin: 0;
-	/* Remove extra margins */
+	/* Remove inconsistent margins */
+	text-align: center;
+	/* Align text consistently */
+	padding: 0 0.5rem;
+		/* Add slight padding for better alignment */
 }
 
 /* Contact Section */
