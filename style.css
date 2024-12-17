@@ -59,6 +59,7 @@ nav a {
 	border-radius: 50%;
 	border: 3px solid #003049;
 }
+
 .about-content {
 	flex: 1;
 	margin-left: 0 auto;
@@ -117,7 +118,7 @@ nav a {
 	font-size: 14px;
 	/* Keep font size consistent */
 	margin-top: auto;
-		/* Push the paragraph to align vertically */
+	/* Push the paragraph to align vertically */
 	line-height: 1.5;
 	/* Improve readability */
 	margin: 0;
@@ -125,7 +126,7 @@ nav a {
 	text-align: center;
 	/* Align text consistently */
 	padding: 0 0.5rem;
-		/* Add slight padding for better alignment */
+	/* Add slight padding for better alignment */
 }
 
 /* Contact Section */
