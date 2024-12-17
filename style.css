@@ -160,12 +160,25 @@ footer {
 }
 
 /* Links */
-a:link {
-	color: #d62828;
+a {
+	color: red;
+	/* Default state */
+}
+
+a:visited {
+	color: red;
+	/* Visited link */
+}
+
+a:focus,
+a:active {
+	color: purple;
+	/* Reset color when focused or clicked again */
 }
 
 a:hover {
-	color: #f77f00;
+	color: orange;
+	/* Optional: hover effect */
 }
 
 /* Horizontal Rule */
